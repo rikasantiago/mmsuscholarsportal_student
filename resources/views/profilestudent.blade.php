@@ -41,12 +41,12 @@
 
         <br>
   
-        <div class="w3-card-4" style="width: 1000px; margin-left:250px;">
-  <div class="w3-container" style="text-align:center; background-color:#0C4B05; color:#FFCD00;">
+    <div class="w3-card-4" style="width: 1000px; margin-left:250px;">
+    <div class="w3-container" style="text-align:center; background-color:#0C4B05; color:#FFCD00;">
     <h2>Personal Data Sheet</h2>
-  </div>
-  <form class="w3-container" action="/action_page.php" >
-   
+    </div>
+  
+    <form class="w3-container" action="/action_page.php" >
 
     <p> <br>     
     <label class="w3-text-black" style="font-size:20px;"><b>FULL NAME</b></label><br><br>
@@ -87,22 +87,22 @@
             <option value="coe">COE</option>
             <option value="cbea">CBEA</option>
             <option value="chs">CHS</option>
+            <option value="cit">CIT</option>
+            <option value="cte">CTE</option>
+            <option value="casat">CASAT</option>
+            <option value="cafsd">CAFSD</option>
         </select>
 
-    <label class="w3-text-black">Course</label><br>
-    <select name="room" id="room" style="width:100%;"class="inputapp">
-            <option value="cas">BS in Computer Science</option>
-            <option value="coe">COE</option>
-            <option value="cbea">CBEA</option>
-            <option value="chs">CHS</option>
-        </select>
+
+    <label class="w3-text-black">Course</label>
+    <input class="w3-input w3-border w3-sand" name="last" type="text" placeholder="BS in Computer Science"></p>
 
     <label class="w3-text-black">Year Level</label><br>
     <select name="room" id="room" style="width:100%;"class="inputapp">
-            <option value="cas">1st Year</option>
-            <option value="coe">2nd Year</option>
-            <option value="cbea">3rd Year</option>
-            <option value="chs">4th Year</option>
+            <option value="1st">1st Year</option>
+            <option value="2nd">2nd Year</option>
+            <option value="3rd">3rd Year</option>
+            <option value="4th">4th Year</option>
         </select>
 
 
@@ -131,12 +131,8 @@
   </form>
 </div>
 
-
-
-
-
-        <a href="home"><button type="button" class="greenbutton" style="  margin-top:15px; margin-bottom:50px;margin-right:400px;margin-left:60px">CANCEL</button></a>
-        <button type="button" onclick="updateProfileFunction()" class="greenbutton" style="  margin-top:15px; margin-bottom:50px;margin-right:120px;"> UPDATE</button>
+        <a href="home"><button type="button" class="greenbutton" style="  margin-top:15px; margin-bottom:50px;margin-right:400px;margin-left:80px">CANCEL</button></a>
+        <button type="button" onclick="updateProfileFunction()" class="greenbutton" style="  margin-top:15px; margin-bottom:50px;margin-right:150px;"> UPDATE</button>
 
 </body>
 </html>

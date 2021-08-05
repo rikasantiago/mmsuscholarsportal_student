@@ -131,22 +131,20 @@ body {
         <p style="color: #fff; font-size: 1.20em; font-weight: bolder; margin-top:35px; margin-right:1090px;">MMSU SCHOLAR'S PORTAL</p>
 </div>  
 
-<div class="menu">
+        <div class="menu">
               
-                    <ul><li>
-                     <a href="#" style="float:right;margin:10px 0px 0px 0px;">18-020007</a>
-                        <ul>
-                        <li><a href="profilestudent">Profile</a></li><br>
-                        <li><a href="calendar">Calendar</a></li><br>
-                        <li><a href="scholarshipprograms">Scholarship Programs</a></li><br>
-                        <li><a href="welcome">Log Out</a></li>
-                        </ul>
-                    </ul></li>
+          <ul><li>
+          <a href="#" style="float:right;margin:10px 0px 0px 0px;">18-020007</a>
+          <ul>
+          <li><a href="profilestudent">Profile</a></li><br>
+          <li><a href="calendar">Calendar</a></li><br>
+          <li><a href="scholarshipprograms">Scholarship Programs</a></li><br>
+          <li><a href="welcome">Log Out</a></li>
+          </ul>
+          </ul></li>
             </div>
-
-
-                
-<!--Proof-->
+      
+<!--Application for TES-->
 
 <div class="w3-card-4" style="margin-left:0px;">
   <div class="w3-container" style="background-color:#E5E4E2; color:#000; width: 1600px;">
@@ -172,9 +170,5 @@ body {
 
 <a href="home"><button type="button" class="greenbutton" style="  margin-top:505px; margin-bottom:50px;margin-right:150px;">CANCEL</button></a>
 
-
-  
-
-    
-    </body>
+</body>
 </html>

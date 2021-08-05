@@ -41,6 +41,7 @@
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  border-radius:50px;
 }
 
 .middle {
@@ -71,18 +72,7 @@
   opacity: 1;
 }
 
-.rectangle {
-  height: 100px;
-  width: 1300px;
-  background-color: #555;
-  margin-left:100px;
-
-}
-
-
 </style>
-
-
 
     </head>
     
@@ -119,14 +109,14 @@
   </div>
   <div class="column">
     <img class="square" src="/images/square1.png" alt="Forest" style="width:70%">
-    <div class="middle" style="left: 250px; top:400px; left: 765px;">
+    <div class="middle" style="left: 250px; top:400px; left: 775px;">
     <div class="text"><a href="scholarshipdetails">Update Existing Scholarship</a></div>
   </div>
 </div>
 
   <div class="column">
     <img class="square" src="/images/square1.png" alt="Mountains" style="width:70%">
-    <div class="middle" style="left: 250px; top:400px; left: 1280px;">
+    <div class="middle" style="left: 250px; top:400px; left: 1290px;">
     <div class="text"><a href="termination">Terminate</a></div>
   </div>
   </div>

@@ -24,29 +24,23 @@
         <p style="color: #fff; font-size: 1.20em; font-weight: bolder; margin-top:35px; margin-right:1090px;">MMSU SCHOLAR'S PORTAL</p>
 </div>  
 
-<div class="menu">
-              
-                    <ul><li>
-                     <a href="#" style="float:right;margin:10px 0px 0px 0px;">18-020007</a>
-                        <ul>
-                        <li><a href="profilestudent">Profile</a></li><br>
-                        <li><a href="calendar">Calendar</a></li><br>
-                        <li><a href="welcome">Log Out</a></li>
-                        </ul>
-                    </ul></li>
-            </div>
-
-
-
-        <!--Scholarship Details-->
-
-        <div class="vd_title-section clearfix">
-            <div class="vd_panel-header">
-                <h1>Termination</h1>
-            </div>
+<div class="menu">   
+        <ul><li>
+        <a href="#" style="float:right;margin:10px 0px 0px 0px;">18-020007</a>
+        <ul>
+        <li><a href="profilestudent">Profile</a></li><br>
+        <li><a href="calendar">Calendar</a></li><br>
+        <li><a href="scholarshipprograms">Scholarship Programs</a></li><br>
+        <li><a href="welcome">Log Out</a></li>
+        </ul>
+        </ul></li>
         </div>
 
-        <br>
+
+
+        <!--Termination-->
+
+        <br><br><br>
   
         <div class="w3-card-4" style="width: 1000px; margin-left:250px;">
   <div class="w3-container" style="text-align:center; background-color:#0C4B05; color:#FFCD00;">
@@ -56,19 +50,19 @@
 
   <label class="w3-text-black" style="font-size:20px;"><b>Reason of Termination:</b></label><br>
   <input type="radio" id="age1" name="age" value="30">
-  <label for="age1">Graduated</label><br>
+  <label for="reason1">Graduated</label><br>
   <input type="radio" id="age2" name="age" value="60">
-  <label for="age2">Did not qualify to eligibility requirements</label><br>  
+  <label for="reason2">Did not qualify to eligibility requirements</label><br>  
   <input type="radio" id="age3" name="age" value="100">
-  <label for="age3">Change of Scholarship Program</label><br> 
+  <label for="reason3">Change of Scholarship Program</label><br> 
   <input type="radio" id="age3" name="age" value="100">
-  <label for="age3">Stopped Schooling</label><br>
+  <label for="reason4">Stopped Schooling</label><br>
   <input type="radio" id="age3" name="age" value="100"style ="margin-left:20px;">
-  <label for="age3">i. Sickness/Health Condition</label><br>
+  <label for="reason5">i. Sickness/Health Condition</label><br>
   <input type="radio" id="age3" name="age" value="100"style ="margin-left:20px;">
-  <label for="age3">ii. Family Concerns</label><br>
+  <label for="reason6">ii. Family Concerns</label><br>
   <input type="radio" id="age3" name="age" value="100"style ="margin-left:20px;">
-  <label for="age3">iii. Personal Concerns</label><br>
+  <label for="reason7">iii. Personal Concerns</label><br>
   <label class="w3-text-black" style="margin-left:20px;">If Other, please specify:</label><br>
         <input type="text" name="color" id="color" style="width:400px; margin-left:20px;" /></td><br><br>
 </form>
@@ -77,12 +71,8 @@
 
 </div><br><br><br>
 
-
-
-
-
         <a href="home"><button type="button" class="greenbutton" style="  margin-top:15px; margin-bottom:50px;margin-right:400px;margin-left:90px">CANCEL</button></a>
-        <button type="button" onclick="updateProfileFunction()" class="greenbutton" style="  margin-top:15px; margin-bottom:50px;margin-right:120px;"> UPDATE</button>
+        <button type="button" onclick="updateProfileFunction()" class="greenbutton" style="  margin-top:15px; margin-bottom:50px;margin-right:170px;"> UPDATE</button>
 
 </body>
 </html>

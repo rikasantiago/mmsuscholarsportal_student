@@ -187,8 +187,9 @@ background: #1D6115;
   margin: 170px auto;
   display: flex;
   width: 30%;
-  height: 500px;
-  border-radius: 10px;    
+  height: 700px;
+  border-radius: 10px;  
+  margin-top:80px;  
 }
 
 

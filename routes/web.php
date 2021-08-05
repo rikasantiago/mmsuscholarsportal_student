@@ -41,10 +41,6 @@ Route::get('/scholarshipprograms', function () {
     return view('scholarshipprograms');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-});
-
 Route::get('/welcome', function () {
     return view('welcome');
 });
@@ -55,21 +51,6 @@ Route::get('/calendar', function () {
 
 Route::get('/profilestudent', function () {
     return view('profilestudent');
-});
-
-Route::get('/dorm', function () {
-    return view('dorm');
-});
-Route::get('/oncampus', function () {
-    return view('oncampus');
-});
-
-Route::get('/offcampus', function () {
-    return view('offcampus');
-});
-
-Route::get('/applicationlist', function () {
-    return view('applicationlist');
 });
 
 Route::get('/home', function () {
