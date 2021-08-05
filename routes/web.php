@@ -21,6 +21,18 @@ Route::get('/register', function () {
     return view('register');
 });
 
+Route::get('/proof', function () {
+    return view('proof');
+});
+
+Route::get('/scholarshipdetails', function () {
+    return view('scholarshipdetails');
+});
+
+Route::get('/apply', function () {
+    return view('apply');
+});
+
 Route::get('/termination', function () {
     return view('termination');
 });
@@ -35,6 +47,10 @@ Route::get('/dashboard', function () {
 
 Route::get('/welcome', function () {
     return view('welcome');
+});
+
+Route::get('/calendar', function () {
+    return view('calendar');
 });
 
 Route::get('/profilestudent', function () {

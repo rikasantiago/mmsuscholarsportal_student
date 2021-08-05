@@ -8,10 +8,82 @@
         <link rel="stylesheet" type="text/css" href="Scholar.css">  
         <!-- SCRIPT -->
         <script src="/studentDormFinder.js"></script>
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="fonts/simple-line-icons/simple-line-icons.min.css">
+        <link rel="stylesheet" href="fonts/font-awesome-css/font-awesome.min.css">
+        <link rel="stylesheet" href="fonts/material-design-icons/material-icon.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="icon" href="/images/mmsu logo.png">
         
- 
+        <style>
+
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-top: 120px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.square{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+.row:hover .square {
+  opacity: 0.3;
+}
+
+
+.row:hover .middle {
+  opacity: 1;
+}
+
+.rectangle {
+  height: 100px;
+  width: 1300px;
+  background-color: #555;
+  margin-left:100px;
+
+}
+
+
+</style>
+
+
+
     </head>
     
     <body class="antialiased">
@@ -19,48 +91,47 @@
         <!--Navigation-->
 
         <div class="topnav" id="myTopnav">
-        <img style="float:left;margin-left:40px;" src="/images/mmsu logo.png"  height="6%" width="6%">
-        <h3>MMSU SCHOLAR'S PORTAL</h3>
-        
-        <div class="menu">
-                    <ul><li>
-                     <a href="#" style="float:right;margin:10px 0px 0px 0px;">18-020007</a>
-                        <ul>
-                        <li><a href="welcome">Log Out</a></li>
-                        </ul>
-                     </div>
-                </div>
-    
-        <!--Dashboard Sidebar-->
+        <img style="float:left;margin-left:100px;" src="/images/mmsu logo.png"  height="6%" width="6%">
+        <p style="color: #fff; font-size: 1.20em; font-weight: bolder; margin-top:35px; margin-right:1090px;">MMSU SCHOLAR'S PORTAL</p>
+</div>  
 
-        <nav id="sidebar" class="">
-           <div class="p-4 pt-5">
-            <h1>
-                <a class="logoo">Homepage</a><br>
-            </h1>
-            <ul class="list-unstyled components mb-5">
-                <li>
-                    <a href="dashboard">Dashboard</a>
-                <li>
-                    <br>
-                <li>
-                    <a href="profilestudent">Profile</a>
-                <li>
-                <br>
-                <li>
-                    <a href="termination">Termination</a>
-                <li>
-                <br>
-                <li>
-                    <a href="scholarshipprograms">Scholarship Programs</a>
-                <li>
-                <br><br><br><br><br><br>
-            </ul>
+      <div class="menu">   
+        <ul><li>
+        <a href="#" style="float:right;margin:10px 0px 0px 0px;">18-020007</a>
+        <ul>
+        <li><a href="profilestudent">Profile</a></li><br>
+        <li><a href="calendar">Calendar</a></li><br>
+        <li><a href="scholarshipprograms">Scholarship Programs</a></li><br>
+        <li><a href="welcome">Log Out</a></li>
+        </ul>
+        </ul></li>
         </div>
-    </nav>
 
-        <!--Content-->
+<!-- Page Content -->
 
-  
-    </body>
+<div class="row">
+  <div class="column">
+    <img class="square" src="/images/square1.png" alt="Snow" style="width:70%">
+    <div class="middle" style="left: 250px; top:400px;">
+    <div class="text"><a href="apply">APPLY TES</a></div>
+  </div>
+
+  </div>
+  <div class="column">
+    <img class="square" src="/images/square1.png" alt="Forest" style="width:70%">
+    <div class="middle" style="left: 250px; top:400px; left: 765px;">
+    <div class="text"><a href="scholarshipdetails">Update Existing Scholarship</a></div>
+  </div>
+</div>
+
+  <div class="column">
+    <img class="square" src="/images/square1.png" alt="Mountains" style="width:70%">
+    <div class="middle" style="left: 250px; top:400px; left: 1280px;">
+    <div class="text"><a href="termination">Terminate</a></div>
+  </div>
+  </div>
+</div>
+
+
+</body>
 </html>

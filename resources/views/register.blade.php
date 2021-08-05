@@ -17,11 +17,11 @@
         <!--Navigation-->
 
         <div class="topnav" id="myTopnav">
-        <img style="float:left;margin-left:20px;" src="/images/mmsu logo.png"  height="5%" width="5%">
+        <img style="float:left;margin-left:100px;" src="/images/mmsu logo.png"  height="6%" width="6%">
         <h4>MMSU SCHOLAR'S PORTAL</h4>
         </div>
     
-        <!--Login-->
+        <!--Register-->
 
         <div class="logincontainer2">
             <div class="wrapper">

@@ -29,7 +29,7 @@
         <form action="#">
           <div class="row">
            
-            <input type="text" placeholder="Student ID">
+            <input type="text" placeholder="Student ID/Examinee No">
           </div>
           <div class="row">
            
