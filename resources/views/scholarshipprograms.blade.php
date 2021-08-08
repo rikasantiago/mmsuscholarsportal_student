@@ -7,7 +7,7 @@
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="Scholar.css">  
         <!-- SCRIPT -->
-        <script src="/studentDormFinder.js"></script>
+        <script src="/Scholar.js"></script>
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <link rel="icon" href="/images/mmsu logo.png">
         

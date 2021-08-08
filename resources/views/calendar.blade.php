@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="calendar.css">
   </head>
   <body>
-
-  
     
     <div id="container">
       
@@ -20,8 +18,6 @@
           <button id="nextButton">Next</button>
         </div>
       </div>
-
-      
 
       <div id="weekdays">
         <div>Sunday</div>
