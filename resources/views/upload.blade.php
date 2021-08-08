@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MMSU Scholar's Portal | Proof</title>
+        <title>MMSU Scholar's Portal | Apply</title>
 
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="Scholar.css">  
@@ -137,14 +137,14 @@
 
 <div class="w3-card-4" style="margin-left:0vw;">
   <div class="w3-container" style="background-color:#E5E4E2; color:#000; width: 1600vw;">
-    <h1 style="float:left; font-family:Regular;">Proof of Scholarship</h1>
+    <h1 style="float:left; font-family:Regular;">Upload Free Higher Education Form</h1>
   </div>
 
 
 <div class="zone">
 
 <div id="dropZ"><br><br><br><br>
-  <div>Drag and drop your files here</div> <br>                   
+  <div>Drag and drop your file/s here</div> <br>                   
   <div class="selectFile">       
   <form enctype='multipart/form-data' method='POST' action='submitFormTo.php'> 
     <input type='file' name='files[]' multiple />

@@ -10,6 +10,10 @@ function updateProfileFunction() {
     alert('Successfully Updated');
 }
 
+function terminate() {
+  alert('No scholarship, proceed first to update');
+}
+
 function searchFunction() {
     // Declare variables
     var input, filter, ul, li, a, i, txtValue;

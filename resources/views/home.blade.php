@@ -7,7 +7,7 @@
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="Scholar.css">  
         <!-- SCRIPT -->
-        <script src="/studentDormFinder.js"></script>
+        <script src="/Scholar.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="fonts/simple-line-icons/simple-line-icons.min.css">
@@ -16,24 +16,15 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="icon" href="/images/mmsu logo.png">
         
-        <style>
-
-
+<style>
 
 .column {
   float: left;
-  width: 33.33%;
-  padding: 5px;
-  margin-top: 120px;
+  width: 40%;
+  padding: 1vw;
+  margin-top: 5vw;
+  margin-left: 6vw;
 }
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .square{
   opacity: 1;
   display: block;
@@ -41,37 +32,8 @@
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-  border-radius:50px;
+  border-radius:3vw;
 }
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.text {
-  background-color: #04AA6D;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
-
-.row:hover .square {
-  opacity: 0.3;
-}
-
-
-.row:hover .middle {
-  opacity: 1;
-}
-
 </style>
 
     </head>
@@ -81,13 +43,13 @@
         <!--Navigation-->
 
         <div class="topnav" id="myTopnav">
-        <img style="float:left;margin-left:100px;" src="/images/mmsu logo.png"  height="6%" width="6%">
-        <p style="color: #fff; font-size: 1.20em; font-weight: bolder; margin-top:35px; margin-right:1090px;">MMSU SCHOLAR'S PORTAL</p>
+        <img style="float:left;margin-left:6vw;" src="/images/mmsu logo.png"  height="6%" width="6%">
+        <p style="color: #fff; font-size: 1.2vw; font-weight: bolder; margin-top:2.5vw; margin-right:70vw;">MMSU SCHOLAR'S PORTAL</p>
 </div>  
 
       <div class="menu">   
         <ul><li>
-        <a href="#" style="float:right;margin:10px 0px 0px 0px;">18-020007</a>
+        <a href="#" style="float:right;margin:0vw 0vw 0vw 0vw;">18-020007</a>
         <ul>
         <li><a href="profilestudent">Profile</a></li><br>
         <li><a href="calendar">Calendar</a></li><br>
@@ -99,28 +61,31 @@
 
 <!-- Page Content -->
 
-<div class="row">
-  <div class="column">
-    <img class="square" src="/images/square1.png" alt="Snow" style="width:70%">
-    <div class="middle" style="left: 250px; top:400px;">
-    <div class="text"><a href="apply">APPLY TES</a></div>
-  </div>
+<div class="alert">
+  <b>Notice:</b>
+  All scholars must upload all necessary files.
+</div>
 
-  </div>
+
   <div class="column">
-    <img class="square" src="/images/square1.png" alt="Forest" style="width:70%">
-    <div class="middle" style="left: 250px; top:400px; left: 775px;">
-    <div class="text"><a href="scholarshipdetails">Update Existing Scholarship</a></div>
+    <img class="square" src="/images/apply.jpg" alt="Snow" style="width:70%">
   </div>
+  <a href="apply"><button type="button" class="homebutton" style="top: 80%; left: 16%;">Apply for TES</button></a>
+
+  <div class="column">
+    <img class="square" src="/images/update.jpg" alt="Forest" style="width:70%">
+    <a href="scholarshipdetails"><button type="button" class="homebutton" style="top: 80%; left: 62%;">Update Scholarship</button></a>
 </div>
 
   <div class="column">
-    <img class="square" src="/images/square1.png" alt="Mountains" style="width:70%">
-    <div class="middle" style="left: 250px; top:400px; left: 1290px;">
-    <div class="text"><a href="termination">Terminate</a></div>
-  </div>
-  </div>
+    <img class="square" src="/images/delete.jpg" alt="Mountains" style="width:70%">
 </div>
+<a href="termination"> <button type="button" class="homebutton" style="top: 150%; left: 16%;">Terminate Scholarship</button></a>
+
+<div class="column">
+    <img class="square" src="/images/upload.jpg" alt="Mountains" style="width:70%">
+</div>
+<a href="upload"><button type="button" class="homebutton" style="top: 150%; left: 59%; width:26vw; height:3vw;">Upload Free Higher Education Form</button></a>
 
 
 </body>

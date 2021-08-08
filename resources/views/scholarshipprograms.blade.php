@@ -16,30 +16,38 @@
     
     <body class="antialiased">
         
-         <!--Navigation-->
+        <!--Navigation-->
 
-         <div class="topnav" id="myTopnav">
-        <img style="float:left;margin-left:40px;" src="/images/mmsu logo.png"  height="6%" width="6%">
-        <h3>MMSU SCHOLAR'S PORTAL</h3>
-        
-        <div class="menu">
-                    <ul><li>
-                     <a href="#" style="float:right;margin:10px 0px 0px 0px;">18-020007</a>
-                        <ul>
-                        <li><a href="welcome">Log Out</a></li>
-                        </ul>
-                     </div>
-                </div>
+        <div class="topnav" id="myTopnav">
+        <img style="float:left;margin-left:6vw;" src="/images/mmsu logo.png"  height="6%" width="6%">
+        <p style="color: #fff; font-size: 1.2vw; font-weight: bolder; margin-top:2.5vw; margin-right:70vw;">MMSU SCHOLAR'S PORTAL</p>
+</div>  
 
-
+      <div class="menu">   
+        <ul><li>
+        <a href="#" style="float:right;margin:0vw 0vw 0vw 0vw;">18-020007</a>
+        <ul>
+        <li><a href="profilestudent">Profile</a></li><br>
+        <li><a href="calendar">Calendar</a></li><br>
+        <li><a href="scholarshipprograms">Scholarship Programs</a></li><br>
+        <li><a href="welcome">Log Out</a></li>
+        </ul>
+        </ul></li>
+        </div>
 
     <!--Scholarship Programs-->
 
-    <div class="vd_title-section clearfix">
-            <div class="vd_panel-header">
-                <h1>List of Scholarship Programs</h1>
-            </div>
+    <div class="w3" style="margin-left:0px;">
+        <div class="w3-container" style="background-color:#E5E4E2; color:#808080; width: 1600px;">
+        <h1 style="float:left; font-family:Regular;">List of Scholarship Programs</h1>
+        <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text"  style="margin-left:50vw;" placeholder="Search.." name="search" >
+    </form>
+  </div>
+
         </div>
+
 
 <table>
   <tr>
@@ -51,7 +59,7 @@
   </tr>
   
   <tr>
-    <th colspan="5" style="background-color:#FFCD00;">Academic Scholars</th>
+    <th colspan="5" style="background-color:#cdcccc;">Academic Scholars</th>
   </tr>
   
   
@@ -86,7 +94,7 @@
     </ul>  
     </td>
     <tr>
-    <th colspan="5" style="background-color:#FFCD00;">Other Study Grants</th>
+    <th colspan="5" style="background-color:#cdcccc;">Other Study Grants</th>
     </tr>
     <td>Incentive for USC Officers and SC Presidents</td>
     <td>BOR Res. 472, s. 2001, BOR Res. 025, s. 2019</td>
@@ -111,7 +119,7 @@
     </ul>
     </td>
     <tr>
-    <th colspan="5" style="background-color:#FFCD00;">Student Assistantship Programs</th>
+    <th colspan="5" style="background-color:#cdcccc;">Student Assistantship Programs</th>
     </tr>
     <td>Student Assistantship Program</td>
     <td>BOR Res. 826, s. 2006</td>
@@ -140,7 +148,7 @@
     </ul>  
     </td>
     <tr>
-    <th colspan="5" style="background-color:#FFCD00;">Other Government Funded Scholarship with MOA/JMC to MMSU</th>
+    <th colspan="5" style="background-color:#cdcccc;">Other Government Funded Scholarship with MOA/JMC to MMSU</th>
     </tr>
     <td>ATI Scholarship - Youth in Agriculture and Fisheries Program (YAFP)</td>
     <td>AFMA 77.3, MOA</td>
@@ -166,24 +174,6 @@
     <ul style="padding-left:1em">
     <li>High School graduates or College students with earned unit in CHED recognized programs with at least a passing GWA</li>
     <li>With combined annual gross income of parents/guardians which shall not exceed Php 400,000.00</li>
-    </ul>  
-    </td>
-    <tr>
-    <td>Cash Grant to Medical Students enrolled in State Universities and Colleges (CGMS-SUCs)</td>
-    </td>
-    <td>JMC 01, s.2018, GAA RA 10964</td>
-    <td>Filipino Medical students in selected SUCs</td>
-    <td>The actual cost of tuition and miscellaneous fees, Subsidy and allowances:<br>Book– Php12,000/sem<br>Uniform- Php3,025.00/sem
-    <br>Miscellaneous – Php5,500.00/sem 
-    <br>Living subsidy- Php4,500.00/mo
-    <br>Lodging- Php3,000.00/mo 
-    <br>Transportation – Php880.00/month
-    </td>
-    <td>
-    <ul style="padding-left:1em">
-    <li>High School graduates or College students with earned unit in CHED recognized programs with at least a passing GWA</li>
-    <li>With combined annual gross income of parents/guardians which shall not exceed Php 400,000.00</li>
-    <li>Must render return service</li>
     </ul>  
     </td>
     <tr>
@@ -330,6 +320,9 @@
     </ul>  
     </td>
     <tr>
+    <th colspan="5" style="background-color:#cdcccc;">Other Government Funded Scholarship with active scholars in the University in the last 3 years</th>
+  </tr>
+    <tr>
     <td>CHED Partylist/SSGP/Congressional/ Senate</td>
     <td>CMO 29, s.2006</td>
     <td>Poor and deserving students based from qualifications set by sponsor</td>
@@ -465,7 +458,7 @@
     </ul>
     </td>
     <tr>
-    <th colspan="5" style="background-color:#FFCD00;">Privately-Funded Scholarships with MOA/Contract to MMSU</th>
+    <th colspan="5" style="background-color:#cdcccc;">Privately-Funded Scholarships with MOA/Contract to MMSU</th>
     </tr>
     <td>PBED Step-up Scholarship</td>
     <td>MOA</td>
@@ -499,10 +492,10 @@
     <li>Must carry an academic load of at least 6 units per term during coursework and 6 units across final year for thesis</li>
     <li>Projected to complete program within prescribed period</li>
     </ul>
-    </td>
-    
-  
+    </td>  
 </table>
+
+<a href="home"><button type="button" class="greenbutton" style="  margin-top:15px; margin-bottom:50px;margin-right:2px;">CANCEL</button></a>
 
 </body>
 </html>

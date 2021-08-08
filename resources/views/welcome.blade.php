@@ -17,7 +17,7 @@
         <!--Navigation-->
 
         <div class="topnav" id="myTopnav">
-        <img style="float:left;margin-left:100px;" src="/images/mmsu logo.png"  height="6%" width="6%">
+        <img style="float:left;margin-left:6vw;" src="/images/mmsu logo.png"  height="6%" width="6%">
         <h4>MMSU SCHOLAR'S PORTAL</h4>
         </div>
     
@@ -40,7 +40,7 @@
           <a href="home"><button type="button" class="btnlogin">Login</button></a>
           </div>
           
-        </form>
+        
       </div>
     </div>
             

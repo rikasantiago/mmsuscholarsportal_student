@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+
 /*font*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
@@ -21,8 +22,8 @@ h2 {text-align: center;}
 h4{
     color: #FFF;
       font-size: 1.2vw;
-      margin-top:27px;  
-      margin-right: 1080px;
+      margin-top:2.5vw;  
+      margin-right: 70vw;
 }
 
 h3{
@@ -149,7 +150,7 @@ background: #1D6115;
 
 .topnav {
     background-color: #0C4B05;
-    border-bottom: 3px solid #FFCD00;
+    border-bottom: 0.5vw solid #FFCD00;
     overflow: hidden;
     display:flex;
 }
@@ -172,27 +173,25 @@ background: #1D6115;
 }
 
 .logincontainer {
-    max-width: 440px;
-    padding: 0 20px;
+    max-width: 440vw;
+    padding: 0 2vw;
     margin: 170px auto;
     display: flex;
     width: 30%;
-    height: 380px;
-    border-radius: 10px;    
+    height: 25vw;
+    border-radius: 10vw;    
 }
 
 .logincontainer2 {
-  max-width: 440px;
-  padding: 0 20px;
-  margin: 170px auto;
+  max-width: 440vw;
+  padding: 0 2vw;
+  margin: 170vw auto;
   display: flex;
-  width: 30%;
-  height: 700px;
-  border-radius: 10px;  
-  margin-top:80px;  
+  width: 40%;
+  height: 50vw;
+  border-radius: 10vw;  
+  margin-top:7vw;  
 }
-
-
 
 .greenbutton {
     background-color:#F3EEED;
@@ -210,6 +209,26 @@ background: #1D6115;
   background-color:#0C4B05;
   color: #FFCD00;
 }
+
+.homebutton {
+  background-color:#F3EEED;
+  color: #000;
+  border-style:solid;
+  border-color: #0c4b05;
+  width: 20%; height: 3vw;
+  border-radius: 20vw;
+  cursor: pointer;
+  font-size: 1.3vw;
+  position: absolute;
+}
+
+.homebutton:hover {
+  color: #0c4b05;
+  border-color:#FFF;
+}
+
+
+
 
 
 
@@ -394,21 +413,22 @@ background: #1D6115;
 .menu{
     display: flex;
     float: right;
-    margin-top: -80px;
+    margin-top:-4.8vw;
     margin-left: 62%;
 
 }
 
   .menu a {
     text-decoration: none;
-    color:#FFCD00;
+    color:#fff;
     padding: 10px;
     display:inline-block;
     font-size: 1.2vw;
+    margin-left:-2px;
   }
   .menu a:hover{
     background-color: #1D6115;
-    color:#FFCD00;
+    color:#fff;
   }
   .menu ul {
     display: inline;
@@ -449,7 +469,7 @@ background: #1D6115;
 
   .menu ul li ul li a:hover {
       background: #0C4B05;
-      color: #FFCD00;
+      color: #fff;
    }
 
 /* CONTACT PAGE CONTAINER */
@@ -530,15 +550,15 @@ background: #1D6115;
 .wrapper{
   width: 100%;
   background: #fff;
-  border-radius: 5px;
-  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+  border-radius: 1vw;
+  box-shadow: 0vw 4vw 10vw 1vw rgba(0,0,0,0.1);
 }
 .wrapper .title{
   height: 90px;
   background: #0C4B05;
-  border-radius: 5px 5px 0 0;
+  border-radius: 1vw 1vw 0 0;
   color: #fff;
-  font-size: 30px;
+  font-size: 2vw;
   font-weight: 600;
   font-family: Regular;
   display: flex;
@@ -546,21 +566,21 @@ background: #1D6115;
   justify-content: center;
 }
 .wrapper form{
-  padding: 30px 25px 25px 25px;
+  padding: 2vw 2vw 2vw 2vw;
 }
 .wrapper form .row{
-  height: 45px;
-  margin-bottom: 15px;
+  height: 3vw;
+  margin-bottom: 1vw;
   position: relative;
 }
 .wrapper form .row input{
   height: 100%;
   width: 100%;
   outline: none;
-  padding-left: 20px;
-  border-radius: 5px;
+  padding-left: 1vw;
+  border-radius: 1vw;
   border: 1px solid lightgrey;
-  font-size: 17px;
+  font-size: 1.2vw;
   font-family: 'Poppins', sans-serif;
   transition: all 0.3s ease;
 }
@@ -587,8 +607,8 @@ form .row input::placeholder{
 
 .wrapper form .signup-link{
   text-align: center;
-  margin-top: 20px;
-  font-size: 17px;
+  margin-top: 1vw;
+  font-size: 1.2vw;
 }
 .wrapper form .signup-link a{
   color: #000ba0;
@@ -600,13 +620,13 @@ form .signup-link a:hover{
 
 .btnlogin {
   width: 50%;
-  height: 40px;
-  border-radius: 35px;
+  height: 2.5vw;
+  border-radius: 35vw;
   margin-left: 25%;
   font-size: 1vw;
   font-weight: bold;
   color: #fff;
-  margin-top: 0px;
+  margin-top: 0vw;
   border-style: none;
   background-color: #0C4B05;
   cursor: pointer;
@@ -745,7 +765,7 @@ h1 {
 }
 
 img{
-   display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -763,3 +783,9 @@ table {
   border-collapse: collapse;
 }
 
+.alert {
+  background-color: #E5E4E2;
+  border-color: #E5E4E2;
+  color: #000;
+  font-size:1.2vw;
+}

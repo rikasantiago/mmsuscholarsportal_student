@@ -14,10 +14,10 @@
     
     <body class="antialiased">
         
-        <!--Navigation-->
+       <!--Navigation-->
 
         <div class="topnav" id="myTopnav">
-        <img style="float:left;margin-left:100px;" src="/images/mmsu logo.png"  height="6%" width="6%">
+        <img style="float:left;margin-left:6vw;" src="/images/mmsu logo.png"  height="6%" width="6%">
         <h4>MMSU SCHOLAR'S PORTAL</h4>
         </div>
     
@@ -36,6 +36,9 @@
           <div class="row"> 
             <input type="text" placeholder="Last Name">
           </div>
+          <div class="row"> 
+            <input type="text" placeholder="Suffix">
+          </div>
           <div class="row">
             <input type="text" placeholder="Student ID/Examinee No">
           </div>
@@ -49,7 +52,7 @@
             <input type="password" placeholder="Confirm Password">
           </div>
 
-          <p style="text-align:justify; font-size:10px;">By clicking Signup, you agree to the collection and processing of your personal data
+          <p style="text-align:justify; font-size:0.7vw;">By clicking Signup, you agree to the collection and processing of your personal data
             in accordance with the policies of the Mariano Marcos State University. This consent does 
             not preclude the existence of other criteria for lawful processing of personal data and
             does not waive any rights under the <a href="https://www.officialgazette.gov.ph/2012/08/15/republic-act-no-10173/">Data Privacy Act of 2012</a> and other 

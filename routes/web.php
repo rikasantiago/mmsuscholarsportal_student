@@ -56,3 +56,11 @@ Route::get('/profilestudent', function () {
 Route::get('/home', function () {
     return view('home');
 });
+
+
+Route::get('/upload', function () {
+    return view('upload');
+});
+
+
+
